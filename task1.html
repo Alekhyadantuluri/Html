@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task</title>
+	<style>
+		h1{
+			font-weight:400;
+		}
+		html {
+			scroll-behavior: smooth;
+		}
+	</style>
+</head>
+<body>
+	<h1 >HTML ELements</h1>
+	<hr><br>
+	<a href ="#home">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#header">Headers</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#table">Table</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#list">List</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#textformats">Text formats</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#block">Blockqoutes</a>
+	<hr>
+	<p id="home">Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on the page, and it is commonly used inside header</p><br><br>
+	<h1 id="header">Header 2</h1>
+	<h2>Header 3</h2>
+	<h3>Header 4</h3>
+	<h4>Header 5</h4>
+	<h5>Header 6</h5><hr><br>
+	<p>Lorem ipsum dolor sit amet,<a href ="">test link</a> consectetur adipisicing elit,<strong>This is strong</strong> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<emphasized>This is emphasized</emphasized>. Ut enim ad minim veniam.5<sup><small>3</small></sup> = 125.Water is H<sub>2</sub>O.uis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<i>This is New York Times</i>(That's a citation). <u>Underline</u> Duis aute irure dolor in reprehenderit in neu fugiat nulla <big>pariatur</big>.
+	<br><br>
+	HTML and CSS are our tools. Mauris a ante. <mark>Suspendisee</mark> quam sem, consequant vitae,feguial in, nume,Morbi imperdiet augue quis tellus. Prasent mattis,massa quis luctus fermentum, turpis mi volupat justo,eu voluypat enim diam eget metus. To copy a file type COPY filename.<del>Dinner at 5:00</del>.<mark>Let's make that 7</mark>.This text has been struck</p>
+	<hr>
+	<h1 id="table">Table</h1>
+	<table border="" cellspacing="0" width=1000 cellpadding="10">
+		<tr>
+			<td>Header</td>
+			<td>Header</td>
+			<td>Header</td>
+		</tr>
+		<tr>
+			<td>Lviv</td>
+			<td>kyiv</td>
+			<td>kharkiv</td>
+		</tr>
+		<tr>
+			<td>odessa</td>
+			<td>zhytomyr</td>
+			<td>dnipro</td>
+		</tr>
+		<tr>
+			<td>sumy</td>
+			<td>chernivtsi</td>
+			<td>lutsk</td>
+		</tr>
+	</table>
+<h1 id="list">Unordered List</h1>
+<ul type="square">
+	<li>List item 1</li>
+	<li>List item 2</li>
+	<ul type="square">
+		<li>Some nested list item 1</li> </ul>
+	<li>List item 3</li>
+</ul>
+<h1>Ordered List</h1>
+<ol>
+	<li>List item 1</li>
+	<li>List item 2</li>
+	<ol type="A"> <li>Some nested list item 1</li></ol>
+	<li>List item 3</li>
+</ol>
+<h1>Definition List</h1>
+<dl>
+	<dt><b>define terms 1</b></dt>
+	<dd>description 1</dd>
+	<dt><b>define term 2</b></dt>
+	<dd>description 2</dd>
+<dl>
+<label>Details</label>
+<select>
+	<option>Html</option>
+	<option>Css</option>
+	<optiom>Javascript</optiom>
+	<option>Bootstrap</option>
+	<option>ReactJs</option>
+	<option>NodeJs</option>
+	<option>MongoDB</option>
+</select><hr>
+<h1 id="textformats">Text formats<h1>
+<h3 style="font-weight:400">Article Text</h3>
+<h4 style="font-weight:400">Article title</h4>
+<h4 style="font-weight:400">Article description</h4>
+<h1>Preformatted Text</h1>
+<div style="background-color:lightgrey;height:200px;width:100%">
+	<div style="height:200px;width:5%;float:left"></div>
+	<div style="height:200px;width:40%;float:left">
+		<pre>
+			<br>
+			        Text
+		in a pre element
+		  is displayed in a fixed-width
+	 font, and it preserves
+	 both
+	   spaces and
+	      line breaks
+	     </pre>
+	</div>
+</div>
+<h1>code</h1>
+<div style="background-color:lightgrey;height:200px;width:100%">
+	<div style="height:200px;width:5%;float:left"></div>
+	<div style="height:200px;width:40%;float:left">
+		<pre><br>
+			.wrapper {
+			display: flex;
+			vertical-align: middle;
+			justify-content: center;
+			  }
+	     </pre>
+	</div>
+</div>
+<h1 id = "block">Blockquotes</h1>
+<p>Let's keep it simple.Italics are good to help set it off from the body text .Be sure to style the citation.</p>
+<pre><i>
+	"if you go back a few hundred years, what we take for granted today would seem like magic-being able to talk to
+	people over long distances, to transmit images,flying,accesing large amount of data like oracle.These are all
+	things that would have been considered magic a few hundered years ago"</i>
+	<u style="color:purple">Elon Musk</u></pre>
+<hr>
+<div style="height:440px;width:100%">
+	<div style="height:440px;width:18%;float:right"><br>
+		<form>
+		<label>First name:</label>
+		<input type="text" name="">
+		<label>&nbsp;&nbsp;&nbsp;Surname:</label>
+		<input type="text" name="">
+		<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:</label>
+		<input type="Email" name=""></form>
+		<textarea rows="20" cols="30"></textarea>
+		<center><input type="submit" name=""></center>
+	</div>
+</div>
+<div style="background-color:grey;height:100px;width:100%">
+	<br>
+	<center><p>copyright epam systems</p>
+</div>
+</body>
+</html>
